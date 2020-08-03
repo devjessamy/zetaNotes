@@ -673,7 +673,8 @@ Which are use cases of the ping command?  Select two responses.
  	Locating new connections
  	Testing connections
 
-*Answer: These two are cases of the ping command.*
+*Answer: Determining the speed of connection, 
+Testing connections*
 
 ####Question 2 of 7
 What are the results of the netstat command?  Select three responses.
@@ -690,12 +691,17 @@ Displays status of ports*
 ####Question 3 of 7
 Which is the correct syntax for the telnet command?
 
+	telnet IP ADDRESS OF SERVER PC PORT
+	telnet <IP ADDRESS OF SERVER PC> <PORT>
+	telnet "IP ADDRESS OF SERVER PC" PORT
+	telnet | IP ADDRESS OF SERVER PC | PORT
+
  	telnet host port
  	telnet [host [port]]
  	telnet "host" port
  	telnet | host | port
 
-*Answer: The correct syntax is telnet [host [port]].*
+*Answer The correct syntax is telnet <IP ADDRESS OF SERVER PC> <PORT>*:
 
 ####Question 4 of 7
 Which are key services for networking troubleshooting?  Select three responses.
@@ -797,7 +803,7 @@ What command would you use?
  	yum remove ssh
  	yum zsh
 
-*Answer: The command yum list installed | grep ssh should be used*
+*Answer: The command, yum list installed | grep ssh, should be used*
 
 ####Question: 7 of 7
 You are using a RedHat distribution and need to use yum to install a package update for zsh. What command would you use?
